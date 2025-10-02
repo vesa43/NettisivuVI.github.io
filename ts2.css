@@ -1,5 +1,5 @@
 body {
-  color: aqua;
+  color: rgb(255, 255, 255);
   background-color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -23,7 +23,7 @@ body {
   color: white;
   padding: 7px 10px;
   margin: 3px;
-  background-color: rgb(27, 24, 199);
+  background-color: rgb(96, 51, 132);
   text-decoration: none;
   font-family: 'Segoe UI';
 }
