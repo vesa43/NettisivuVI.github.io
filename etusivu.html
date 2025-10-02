@@ -6,9 +6,14 @@
     <title>Pasilan opiskelutarvikkeet</title>
     <style>
       /* Yleiset */
+
+      :root {
+        --paavari: #2e3b55;
+      }
+
       body {
         margin: 0;
-        font-family: "Segoe UI", Arial, sans-serif;
+        font-family: 'Segoe UI', Arial, sans-serif;
         background-color: #f9f9f9;
         color: #333;
         line-height: 1.6;
@@ -19,7 +24,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #2e3b55;
+        background-color: var(--paavari);
         padding: 15px 30px;
       }
 
@@ -92,7 +97,7 @@
 
       /* Footer */
       footer {
-        background: #2e3b55;
+        background: var(--paavari);
         color: white;
         text-align: center;
         padding: 15px;
@@ -103,7 +108,7 @@
   <body>
     <!-- Navigaatio -->
     <div class="navbar">
-      <div class="otsikko"> Pasilan Opiskelutarvikkeet</div>
+      <div class="otsikko">Pasilan Opiskelutarvikkeet</div>
       <div class="nav-links">
         <a href="tuotesivu.html">Tuotteemme</a>
         <a href="yhteystiedot.html">Yhteystiedot</a>
@@ -124,8 +129,8 @@
       <h2>Miksi valita meidät?</h2>
       <p>
         Tarjoamme laajan valikoiman opiskelutarvikkeita, jotka auttavat sinua
-        menestymään opinnoissasi. Meiltä löydät kaiken lyijykynistä
-        penaaleihin, vihkoista kansioihin.
+        menestymään opinnoissasi. Meiltä löydät kaiken lyijykynistä penaaleihin,
+        vihkoista kansioihin.
       </p>
     </div>
 
